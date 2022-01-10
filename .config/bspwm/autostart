@@ -1,0 +1,12 @@
+xsetroot -cursor_name left_ptr
+xsetroot -solid black
+~/Documentos/dual.sh &
+feh --bg-fill ~/Imágenes/ghibliRiver.png ~/Imágenes/ghibli9.png
+picom -b -C --config ~/.config/picom.conf
+~/.config/polybar/launch.sh &
+source ~/.config/bspwm/bspwmrc
+dunst &
+nm-applet &
+xset s off
+xset -dpms
+xset s noblank
